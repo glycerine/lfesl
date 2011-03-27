@@ -12,7 +12,7 @@
    (assert 2 (-> (+ 1 1))))
   (context
    '"with >1 args should thread each sexp as the 2nd arg to the next"
-   (assert #(4) (-> 2 (/ 1) (* 4) (tuple)))))
+   (assert #(8.0) (-> 2 (/ 1) (* 4) (tuple)))))
 
 (deftest ->>
   (context
