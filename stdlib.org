@@ -1,0 +1,24 @@
+#+TITLE:Lisp Flavored Erlang Standard Library
+#+AUTHOR:Tim Dysinger
+#+EMAIL:tim@dysinger.net
+#+FILEFLAGS: COMPUTER PROJECT
+
+* Build
+  - make deps
+  - make
+* Test
+  - make test
+* Use
+
+* TODO Write tests
+  :LOGBOOK:
+  - State "TODO"       from ""           [2011-03-27 Sun 08:44]
+  :END:
+* TODO Finish lfe stdlib usage docs
+  :LOGBOOK:
+  - State "TODO"       from ""           [2011-03-27 Sun 08:44]
+  :END:
+* TODO Finish lfe stdlib cmdln test exec
+  :LOGBOOK:
+  - State "TODO"       from ""           [2011-03-27 Sun 08:44]
+  :END:
