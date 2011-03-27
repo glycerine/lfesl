@@ -3,6 +3,8 @@
 #+EMAIL:tim@dysinger.net
 #+FILEFLAGS: COMPUTER PROJECT
 
+* Requirements
+  - [[http://github.com/basho/rebar][Rebar]]
 * Build
 #+BEGIN_SRC: sh
 lfe_stdlib ➤ make deps && make
