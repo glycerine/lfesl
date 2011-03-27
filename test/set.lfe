@@ -32,6 +32,6 @@
                   (set)
                   (set! '(0 3 4 2 1))))))
 
-(defun test-set ()
+(detest set
   (test-set!)
   (test-sfold))

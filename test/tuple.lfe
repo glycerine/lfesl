@@ -14,3 +14,6 @@
            (assert #(#(one 1) #(two 2))
                    (tuple! (: dict from_list '(#(one 1) #(two 2))))))
    (context '"list" (assert #(1 2 3) (tuple! '(1 2 3))))))
+
+(deftest tuple
+  (test-tuple!))

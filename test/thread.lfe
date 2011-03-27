@@ -27,6 +27,6 @@
    '"with >1 args should thread each sexp as the last arg to the next"
    (assert #(2.0) (->> 2 (/ 1) (* 4) (tuple)))))
 
-(defun test-thread ()
+(deftest thread
   (test-->)
   (test-->>))
