@@ -13,6 +13,6 @@
            (assert 'true (false? (== 2 (+ 0 1))))
            (assert 'false (false? 'unicorn))))
 
-(detest boolean
+(deftest boolean
   (test-true?)
   (test-false?))

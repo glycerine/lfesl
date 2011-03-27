@@ -32,6 +32,6 @@
                   (set)
                   (set! '(0 3 4 2 1))))))
 
-(detest set
+(deftest set
   (test-set!)
   (test-sfold))

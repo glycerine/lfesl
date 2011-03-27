@@ -28,6 +28,6 @@
             (assert (->> (dict) (dict+ 'one 1) (dict+ 'two 2) (dict+ 'three 3))
                     (dict! '(#(one 1) #(two 2) #(three 3)))))))
 
-(deftest dict
+(deftest dictionary
   (test-dict?)
   (test-dict!))
