@@ -17,19 +17,3 @@ LFE Shell V5.8.3 (abort with ^G)
 ()
 >
 #+END_SRC
-* DONE [#C] Finish lfe stdlib usage docs
-  CLOSED: [2011-03-27 Sun 13:24]
-  :LOGBOOK:
-  - Note taken on [2011-03-27 Sun 13:24] \\
-    Tests are good enough for now
-  - State "DONE"       from "TODO"       [2011-03-27 Sun 13:24]
-  - State "TODO"       from ""           [2011-03-27 Sun 08:44]
-  :END:
-* DONE [#C] Finish lfe stdlib cmdln test exec
-  CLOSED: [2011-03-27 Sun 13:23]
-  :LOGBOOK:
-  - Note taken on [2011-03-27 Sun 13:24] \\
-    Doesn't need to be automatic right now
-  - State "DONE"       from "TODO"       [2011-03-27 Sun 13:23]
-  - State "TODO"       from ""           [2011-03-27 Sun 08:44]
-  :END:
