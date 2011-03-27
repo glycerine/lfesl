@@ -4,11 +4,19 @@
 #+FILEFLAGS: COMPUTER PROJECT
 
 * Build
-  - make deps
-  - make
+#+BEGIN_SRC: sh
+lfe_stdlib ➤ make deps && make
+#+END_SRC
 * Test
-  - make test
-* Use
+#+BEGIN_SRC: sh
+lfe_stdlib ➤ make repl
+LFE Shell V5.8.3 (abort with ^G)
+> (slurp '"test/all.lfe")
+#(ok dictionary)
+> (test-all)
+()
+>
+#+END_SRC
 
 * DONE Write tests
   CLOSED: [2011-03-27 Sun 13:20]
