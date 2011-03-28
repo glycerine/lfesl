@@ -2,3 +2,4 @@ deps
 ebin
 *.dump
 *.beam
+.*.org
