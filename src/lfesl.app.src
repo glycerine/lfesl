@@ -1,8 +1,8 @@
 %% -*- mode: erlang -*-
 
-{application, lfe_stdlib,
+{application, lfesl,
  [
-  {description, ""},
+  {description, "LFE Standard Library"},
   {vsn, "1"},
   {registered, []},
   {applications, [
