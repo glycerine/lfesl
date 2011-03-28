@@ -7,15 +7,14 @@
   - [[http://github.com/basho/rebar][Rebar]]
 * Build
 #+BEGIN_SRC: sh
-lfe_stdlib ➤ make deps && make
+➤ make deps && make
 #+END_SRC
 * Test
 #+BEGIN_SRC: sh
-lfe_stdlib ➤ make repl
+➤ make repl
 LFE Shell V5.8.3 (abort with ^G)
 > (slurp '"test/all.lfe")
 #(ok dictionary)
 > (test-all)
 ()
->
 #+END_SRC
