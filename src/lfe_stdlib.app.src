@@ -1,0 +1,14 @@
+%% -*- mode: erlang -*-
+
+{application, lfe_stdlib,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { lfe_stdlib_app, []}},
+  {env, []}
+ ]}.
