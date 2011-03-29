@@ -6,15 +6,26 @@
 * Requirements
   - [[http://github.com/basho/rebar][Rebar]]
 * Build
-#+BEGIN_SRC: sh
+  #+BEGIN_SRC: sh
 ➤ make deps && make
-#+END_SRC
+  #+END_SRC
 * Test
-#+BEGIN_SRC: sh
+  #+BEGIN_SRC: sh
 ➤ make repl
 LFE Shell V5.8.3 (abort with ^G)
 > (slurp '"test/all.lfe")
 #(ok dictionary)
 > (test-all)
 ()
-#+END_SRC
+  #+END_SRC
+
+* TODO Figure out how to find the include dir from any app
+  :LOGBOOK:
+  - State "TODO"       from ""           [2011-03-28 Mon 15:19]
+  :END:
+  - Something like (: lfesl include '"core.lfe")
+  #+BEGIN_SRC: lisp
+    (defn include (file)
+      (include-file
+        (-> (which 'lfesl) (++ '"../include/") (++ file))))
+  #+END_SRC
